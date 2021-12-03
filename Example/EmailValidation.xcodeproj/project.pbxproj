@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1264DCF40B438F8BFC0DC8EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1264DCF40B438F8BFC0DC8EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		37AB084A17A75FEBA1E424C2 /* Pods_EmailValidation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmailValidation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		415F6162D512EDE1557C3E32 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		415F6162D512EDE1557C3E32 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* EmailValidation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmailValidation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		70732F9487539938E65F0C80 /* Pods-EmailValidation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailValidation_Tests.release.xcconfig"; path = "Target Support Files/Pods-EmailValidation_Tests/Pods-EmailValidation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7AE6F047E427B169371DCD58 /* Pods_EmailValidation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmailValidation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95414EE2779F0B7F9226D022 /* Pods-EmailValidation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailValidation_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EmailValidation_Tests/Pods-EmailValidation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		964AFA436AF1AFE7C30EF752 /* EmailValidation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EmailValidation.podspec; path = ../EmailValidation.podspec; sourceTree = "<group>"; };
+		964AFA436AF1AFE7C30EF752 /* EmailValidation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EmailValidation.podspec; path = ../EmailValidation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB4F387647E3667EED8C9E53 /* Pods-EmailValidation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailValidation_Example.debug.xcconfig"; path = "Target Support Files/Pods-EmailValidation_Example/Pods-EmailValidation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EFB70B2F0EAAA57463FB1A18 /* Pods-EmailValidation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailValidation_Example.release.xcconfig"; path = "Target Support Files/Pods-EmailValidation_Example/Pods-EmailValidation_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				95414EE2779F0B7F9226D022 /* Pods-EmailValidation_Tests.debug.xcconfig */,
 				70732F9487539938E65F0C80 /* Pods-EmailValidation_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
